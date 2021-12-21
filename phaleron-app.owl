@@ -7145,11 +7145,71 @@
     
 
 
+    <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/PhaleronLowerLimbROIs -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/PhaleronLowerLimblROIs">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/PhaleronLowerLimbROIGroup"/>
+        <rdfs:label xml:lang="en">Lower limb</rdfs:label>
+    </owl:NamedIndividual>
+
+    
+
+
+    <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/PhaleronOsCoxaeROIs -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/PhaleronOsCoxaeROIs">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/PhaleronOsCoxaeROIGroup"/>
+        <rdfs:label xml:lang="en">Os coxae</rdfs:label>
+    </owl:NamedIndividual>
+
+    
+
+
+    <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/PhaleronShoulderGirdleROIs -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/anthrograph/app/PhaleronShoulderGirdleROIs">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/PhaleronShoulderGirdleROIGroup"/>
+        <rdfs:label xml:lang="en">Shoulder girdle</rdfs:label>
+    </owl:NamedIndividual>
+
+    
+
+
     <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/PhaleronSkullROIs -->
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/PhaleronSkullROIs">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/PhaleronSkullROIGroup"/>
         <rdfs:label xml:lang="en">Skull</rdfs:label>
+    </owl:NamedIndividual>
+
+    
+
+
+    <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/PhaleronThoraxROIs -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/PhaleronThoraxROIs">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/PhaleronThoraxROIGroup"/>
+        <rdfs:label xml:lang="en">Thorax</rdfs:label>
+    </owl:NamedIndividual>
+
+    
+
+
+    <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/PhaleronUpperLimbROIs -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/PhaleronUpperLimbROIs">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/PhaleronUpperLimbROIGroup"/>
+        <rdfs:label xml:lang="en">Upper limb</rdfs:label>
+    </owl:NamedIndividual>
+
+    
+
+
+    <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/PhaleronVertebralColumnROIs -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/PhaleronVertebralColumnROIs">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/PhaleronVertebralColumnROIGroup"/>
+        <rdfs:label xml:lang="en">Vertebral column</rdfs:label>
     </owl:NamedIndividual>
 </rdf:RDF>
 
