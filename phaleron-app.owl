@@ -10,9 +10,9 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app">
-        <dc:date>2021-12-20</dc:date>
+        <dc:date>2021-12-21</dc:date>
         <dc:title xml:lang="en">Phaleron AnthroGraph App Ontology</dc:title>
-        <owl:versionInfo>0.1.0</owl:versionInfo>
+        <owl:versionInfo>0.1.1</owl:versionInfo>
     </owl:Ontology>
     
 
