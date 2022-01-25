@@ -5,6 +5,7 @@
      xmlns:fma="http://purl.org/sig/ont/fma/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:phaleron-app="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
@@ -105,7 +106,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <obo:IAO_0000115>A relation between an element and a string that specifies a context within an application's user interface. </obo:IAO_0000115>
+        <obo:IAO_0000115>A relation between an element and a string that can be used as component of a URL. </obo:IAO_0000115>
         <obo:IAO_0000112 xml:lang="en">A string defining a tab within an application user interface which is to be set as transfer target after some event.</obo:IAO_0000112>
         <rdfs:label xml:lang="en">urlparam</rdfs:label>
     </owl:DatatypeProperty>
@@ -7162,7 +7163,8 @@
     <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/PhaleronLowerLimbROIs -->
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/PhaleronLowerLimblROIs">
-        <rdf:type rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/PhaleronLowerLimbROIGroup"/>
+      <rdf:type rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/PhaleronLowerLimbROIGroup"/>
+      <phaleron-app:urlparam>lowerlimb</phaleron-app:urlparam>
         <rdfs:label xml:lang="en">Lower limb</rdfs:label>
     </owl:NamedIndividual>
 
@@ -7173,6 +7175,7 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/PhaleronOsCoxaeROIs">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/PhaleronOsCoxaeROIGroup"/>
+      <phaleron-app:urlparam>oscoxae</phaleron-app:urlparam>
         <rdfs:label xml:lang="en">Os coxae</rdfs:label>
     </owl:NamedIndividual>
 
@@ -7183,6 +7186,7 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/anthrograph/app/PhaleronShoulderGirdleROIs">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/PhaleronShoulderGirdleROIGroup"/>
+      <phaleron-app:urlparam>shouldergirdle</phaleron-app:urlparam>
         <rdfs:label xml:lang="en">Shoulder girdle</rdfs:label>
     </owl:NamedIndividual>
 
@@ -7193,6 +7197,7 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/PhaleronSkullROIs">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/PhaleronSkullROIGroup"/>
+      <phaleron-app:urlparam>skull</phaleron-app:urlparam>
         <rdfs:label xml:lang="en">Skull</rdfs:label>
     </owl:NamedIndividual>
 
@@ -7203,6 +7208,7 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/PhaleronThoraxROIs">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/PhaleronThoraxROIGroup"/>
+      <phaleron-app:urlparam>thorax</phaleron-app:urlparam>
         <rdfs:label xml:lang="en">Thorax</rdfs:label>
     </owl:NamedIndividual>
 
@@ -7213,6 +7219,7 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/PhaleronUpperLimbROIs">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/PhaleronUpperLimbROIGroup"/>
+      <phaleron-app:urlparam>upperlimb</phaleron-app:urlparam>
         <rdfs:label xml:lang="en">Upper limb</rdfs:label>
     </owl:NamedIndividual>
 
@@ -7223,6 +7230,7 @@
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/PhaleronVertebralColumnROIs">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/PhaleronVertebralColumnROIGroup"/>
+      <phaleron-app:urlparam>vertebralcolumn</phaleron-app:urlparam>
         <rdfs:label xml:lang="en">Vertebral column</rdfs:label>
     </owl:NamedIndividual>
 </rdf:RDF>
