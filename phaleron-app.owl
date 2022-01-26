@@ -7162,7 +7162,7 @@
 
     <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/PhaleronLowerLimbROIs -->
 
-    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/PhaleronLowerLimblROIs">
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/PhaleronLowerLimbROIs">
       <rdf:type rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/PhaleronLowerLimbROIGroup"/>
       <phaleron-app:urlparam>lowerlimb</phaleron-app:urlparam>
         <rdfs:label xml:lang="en">Lower limb</rdfs:label>
