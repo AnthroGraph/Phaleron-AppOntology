@@ -7,12 +7,19 @@
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:phaleron-app="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app">
-        <dc:date>2021-12-21</dc:date>
-        <dc:title xml:lang="en">Phaleron AnthroGraph App Ontology</dc:title>
+    <owl:Ontology rdf:about="http://w3id.org/rdfbones/ontology_resources/app/phaleron-app/latetst/phaleron-app.owl">
+      <owl:versionIRI rdf:resource="http://w3id.org/rdfbones/ontology_resources/app/phaleron-app/v0-1/phaleron-app.owl"/>
+	<dc:date>2021-12-21</dc:date>
+        <terms:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</terms:creator>
+        <terms:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stefan Schlager</terms:creator>
+        <terms:description xml:lang="en">This ontology provides functionality of the AnthroGraph PBP App, developed for the Phaleron Bioarchaeological Project. Its content is exclusively relevant for correct display of the AnthroGraph graphical user interface and has no bearing on research data structures.</terms:description>
+        <terms:title xml:lang="en">Phaleron AnthroGraph App Ontology</terms:title>
+	<rdfs:comment xml:lang="en">This app ontology is only functional in combination with the AnthroGraph PBP App.</rdfs:comment>
+	<rdfs:label>Phaleron AnthroGraph App Ontology</rdfs:label>
         <owl:versionInfo>0.1.1</owl:versionInfo>
     </owl:Ontology>
     
