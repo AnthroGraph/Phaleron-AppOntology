@@ -7,6 +7,7 @@
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:phaleron-app="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:rdfbones="http://w3id.org/rdfbones/core#"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
@@ -10446,6 +10447,29 @@
     
 
 
+    <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/PaleopathologicalInvestigations -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/PaleopathologicalInvestigations">
+      <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SemanticSoftwareRoutine"/>
+      <obo:BFO_0000050 rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/PBPApp"/>
+      <obo:IAO_0000115>Software implementation of the paleopathological investigaiton routines defined by the Paleopathology Scoring Key of the Phaleron Bioarchaeological Project.</obo:IAO_0000115>
+      <rdfbones:startPage>:PSI_CreatePaleopath</rdfbones:startPage>
+      <rdfs:label xml:lang="en">Paleopathological investigations</rdfs:label>
+    </owl:NamedIndividual>
+
+    
+
+
+    <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/PBPApp -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/PBPApp">
+      <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SemanticSoftwareImplementation"/>
+      <obo:IAO_0000115>AnthroGraph app implementing the research routines of the Phaleron Bioarchaeological Project.</obo:IAO_0000115>
+      <rdfs:label xml:lang="en">PBP app</rdfs:label>
+
+
+
+
     <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/PhaleronLowerLimbArticularROIs -->
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/PhaleronLowerLimbArticularROIs">
@@ -10596,6 +10620,21 @@
       <phaleron-app:urlparam>vertebralcolumn</phaleron-app:urlparam>
         <rdfs:label xml:lang="en">Vertebral column</rdfs:label>
     </owl:NamedIndividual>
+
+    
+
+
+    <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/SkeletalInventory -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/SkeletalInventory">
+      <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SemanticSoftwareRoutine"/>
+      <obo:BFO_0000050 rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/PBPApp"/>
+      <obo:IAO_0000115>Software implementation of the skeletal inventory routines defined by the Paleopathology Scoring Key of the Phaleron Bioarchaeological Project.</obo:IAO_0000115>
+      <rdfbones:startPage>:RDFBONES_SkeletalInventories</rdfbones:startPage>
+      <rdfs:label xml:lang="en">Paleopathological investigations</rdfs:label>
+    </owl:NamedIndividual>
+
+
     
 </rdf:RDF>
 
