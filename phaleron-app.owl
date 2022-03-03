@@ -10527,7 +10527,7 @@
 
     <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/PhaleronShoulderGirdleROIs -->
 
-    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/anthrograph/app/PhaleronShoulderGirdleROIs">
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/PhaleronShoulderGirdleROIs">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/PhaleronShoulderGirdleROIGroup"/>
       <phaleron-app:urlparam>shouldergirdle</phaleron-app:urlparam>
         <rdfs:label xml:lang="en">Shoulder girdle</rdfs:label>
