@@ -10466,6 +10466,7 @@
       <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SemanticSoftwareImplementation"/>
       <obo:IAO_0000115>AnthroGraph app implementing the research routines of the Phaleron Bioarchaeological Project.</obo:IAO_0000115>
       <rdfs:label xml:lang="en">PBP app</rdfs:label>
+    </owl:NamedIndividual>
 
 
 
