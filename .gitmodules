@@ -1,3 +1,6 @@
 [submodule "RDFBones-O"]
 	path = RDFBones-O
 	url = https://github.com/RDFBones/RDFBones-O
+[submodule "Standards-SkeletalInventories"]
+	path = Standards-SkeletalInventories
+	url = git@github.com:RDFBones/Standards-SkeletalInventories.git
