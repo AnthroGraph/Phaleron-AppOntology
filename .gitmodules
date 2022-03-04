@@ -7,3 +7,6 @@
 [submodule "Phaleron-SkeletalInventory"]
 	path = Phaleron-SkeletalInventory
 	url = git@github.com:RDFBones/Phaleron-SkeletalInventory.git
+[submodule "Standards-Pathologies"]
+	path = Standards-Pathologies
+	url = git@github.com:RDFBones/Standards-Pathologies.git
