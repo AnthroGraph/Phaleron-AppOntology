@@ -10,3 +10,6 @@
 [submodule "Standards-Pathologies"]
 	path = Standards-Pathologies
 	url = git@github.com:RDFBones/Standards-Pathologies.git
+[submodule "Phaleron-Pathologies"]
+	path = Phaleron-Pathologies
+	url = git@github.com:RDFBones/Phaleron-Pathologies.git
