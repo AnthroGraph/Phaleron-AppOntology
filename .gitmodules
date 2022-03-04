@@ -4,3 +4,6 @@
 [submodule "Standards-SkeletalInventories"]
 	path = Standards-SkeletalInventories
 	url = git@github.com:RDFBones/Standards-SkeletalInventories.git
+[submodule "Phaleron-SkeletalInventory"]
+	path = Phaleron-SkeletalInventory
+	url = git@github.com:RDFBones/Phaleron-SkeletalInventory.git
