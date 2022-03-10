@@ -1,3 +1,7 @@
 # Emacs temporary files
 *#*
 *~
+
+# Directory for script output
+
+results*
