@@ -47,7 +47,7 @@ done
 ## check if submodules are initialised
 
 gitchk=$(git submodule foreach 'echo $sm_path `git rev-parse HEAD`')
-if [ -z $gitchk ];then
+if [ -z "$gitchk" ];then
 
     git submodule init
     git submodule update
