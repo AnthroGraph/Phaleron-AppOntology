@@ -169,6 +169,287 @@
       <obo:IAO_0000115>An anatomical regions of interest group containing anatomical regions of interest that are part of some joint.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Articular regions of interest group</rdfs:label>
     </owl:Class>
+
+    
+
+
+    <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/EntirePrimaryLeftFirstLowerMolarToothSocket -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/EntirePrimaryLeftFirstLowerMolarToothSocket">
+        <owl:equivalentClass rdf:resource="http://w3id.org/rdfbones/core#EntireToothSocket_fma317408"/>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#EntireToothSocket_fma317343"/>
+        <obo:IAO_0000116 xml:lang="en">Helper class that was exclusively introduced to facilitate software implementation. For analytical purposes, the stated equivalent class is relevant.</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Felix Engel</obo:IAO_0000119>
+        <fma:regional_part_of rdf:resource="http://purl.org/sig/ont/fma/fma317408"/>
+        <rdfs:label xml:lang="en">Entire primary left first lower molar tooth socket</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/EntirePrimaryLeftFirstUpperMolarToothSocket -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/EntirePrimaryLeftFirstUpperMolarToothSocket">
+        <owl:equivalentClass rdf:resource="http://w3id.org/rdfbones/core#EntireToothSocket_fma317376"/>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#EntireToothSocket_fma317343"/>
+        <obo:IAO_0000116 xml:lang="en">Helper class that was exclusively introduced to facilitate software implementation. For analytical purposes, the stated equivalent class is relevant.</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Felix Engel</obo:IAO_0000119>
+        <fma:regional_part_of rdf:resource="http://purl.org/sig/ont/fma/fma317376"/>
+        <rdfs:label xml:lang="en">Entire primary left first upper molar tooth socket</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/EntirePrimaryLeftLowerCanineToothSocket -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/EntirePrimaryLeftLowerCanineToothSocket">
+        <owl:equivalentClass rdf:resource="http://w3id.org/rdfbones/core#EntireToothSocket_fma317402"/>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#EntireToothSocket_fma317343"/>
+        <obo:IAO_0000116 xml:lang="en">Helper class that was exclusively introduced to facilitate software implementation. For analytical purposes, the stated equivalent class is relevant.</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Felix Engel</obo:IAO_0000119>
+        <fma:regional_part_of rdf:resource="http://purl.org/sig/ont/fma/fma317402"/>
+        <rdfs:label xml:lang="en">Entire primary left lower canine tooth socket</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/EntirePrimaryLeftLowerCentralIncisorToothSocket -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/EntirePrimaryLeftLowerCentralIncisorToothSocket">
+        <owl:equivalentClass rdf:resource="http://w3id.org/rdfbones/core#EntireToothSocket_fma317398"/>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#EntireToothSocket_fma317343"/>
+        <obo:IAO_0000116 xml:lang="en">Helper class that was exclusively introduced to facilitate software implementation. For analytical purposes, the stated equivalent class is relevant.</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Felix Engel</obo:IAO_0000119>
+        <fma:regional_part_of rdf:resource="http://purl.org/sig/ont/fma/fma317398"/>
+        <rdfs:label xml:lang="en">Entire primary left lower central incisor tooth socket</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/EntirePrimaryLeftLowerLateralIncisorToothSocket -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/EntirePrimaryLeftLowerLateralIncisorToothSocket">
+        <owl:equivalentClass rdf:resource="http://w3id.org/rdfbones/core#EntireToothSocket_fma317400"/>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#EntireToothSocket_fma317343"/>
+        <obo:IAO_0000116 xml:lang="en">Helper class that was exclusively introduced to facilitate software implementation. For analytical purposes, the stated equivalent class is relevant.</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Felix Engel</obo:IAO_0000119>
+        <fma:regional_part_of rdf:resource="http://purl.org/sig/ont/fma/fma317400"/>
+        <rdfs:label xml:lang="en">Entire primary left lower lateral incisor tooth socket</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/EntirePrimaryLeftSecondLowerMolarToothSocket -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/EntirePrimaryLeftSecondLowerMolarToothSocket">
+        <owl:equivalentClass rdf:resource="http://w3id.org/rdfbones/core#EntireToothSocket_fma317410"/>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#EntireToothSocket_fma317343"/>
+        <obo:IAO_0000116 xml:lang="en">Helper class that was exclusively introduced to facilitate software implementation. For analytical purposes, the stated equivalent class is relevant.</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Felix Engel</obo:IAO_0000119>
+        <fma:regional_part_of rdf:resource="http://purl.org/sig/ont/fma/fma317410"/>
+        <rdfs:label xml:lang="en">Entire primary left second lower molar tooth socket</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/EntirePrimaryLeftSecondUpperMolarToothSocket -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/EntirePrimaryLeftSecondUpperMolarToothSocket">
+        <owl:equivalentClass rdf:resource="http://w3id.org/rdfbones/core#EntireToothSocket_fma317378"/>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#EntireToothSocket_fma317343"/>
+        <obo:IAO_0000116 xml:lang="en">Helper class that was exclusively introduced to facilitate software implementation. For analytical purposes, the stated equivalent class is relevant.</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Felix Engel</obo:IAO_0000119>
+        <fma:regional_part_of rdf:resource="http://purl.org/sig/ont/fma/fma317378"/>
+        <rdfs:label xml:lang="en">Entire primary left second upper molar tooth socket</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/EntirePrimaryLeftUpperCanineToothSocket -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/EntirePrimaryLeftUpperCanineToothSocket">
+        <owl:equivalentClass rdf:resource="http://w3id.org/rdfbones/core#EntireToothSocket_fma317370"/>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#EntireToothSocket_fma317343"/>
+        <obo:IAO_0000116 xml:lang="en">Helper class that was exclusively introduced to facilitate software implementation. For analytical purposes, the stated equivalent class is relevant.</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Felix Engel</obo:IAO_0000119>
+        <fma:regional_part_of rdf:resource="http://purl.org/sig/ont/fma/fma317370"/>
+        <rdfs:label xml:lang="en">Entire primary left upper canine tooth socket</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/EntirePrimaryLeftUpperCentralIncisorToothSocket -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/EntirePrimaryLeftUpperCentralIncisorToothSocket">
+        <owl:equivalentClass rdf:resource="http://w3id.org/rdfbones/core#EntireToothSocket_fma317366"/>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#EntireToothSocket_fma317343"/>
+        <obo:IAO_0000116 xml:lang="en">Helper class that was exclusively introduced to facilitate software implementation. For analytical purposes, the stated equivalent class is relevant.</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Felix Engel</obo:IAO_0000119>
+        <fma:regional_part_of rdf:resource="http://purl.org/sig/ont/fma/fma317366"/>
+        <rdfs:label xml:lang="en">Entire primary left upper central incisor tooth socket</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/EntirePrimaryLeftUpperLateralIncisorToothSocket -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/EntirePrimaryLeftUpperLateralIncisorToothSocket">
+        <owl:equivalentClass rdf:resource="http://w3id.org/rdfbones/core#EntireToothSocket_fma317368"/>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#EntireToothSocket_fma317343"/>
+        <obo:IAO_0000116 xml:lang="en">Helper class that was exclusively introduced to facilitate software implementation. For analytical purposes, the stated equivalent class is relevant.</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Felix Engel</obo:IAO_0000119>
+        <fma:regional_part_of rdf:resource="http://purl.org/sig/ont/fma/fma317368"/>
+        <rdfs:label xml:lang="en">Entire primary left upper lateral incisor tooth socket</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/EntirePrimaryRightFirstLowerMolarToothSocket -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/EntirePrimaryRightFirstLowerMolarToothSocket">
+        <owl:equivalentClass rdf:resource="http://w3id.org/rdfbones/core#EntireToothSocket_fma317392"/>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#EntireToothSocket_fma317343"/>
+        <obo:IAO_0000116 xml:lang="en">Helper class that was exclusively introduced to facilitate software implementation. For analytical purposes, the stated equivalent class is relevant.</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Felix Engel</obo:IAO_0000119>
+        <fma:regional_part_of rdf:resource="http://purl.org/sig/ont/fma/fma317392"/>
+        <rdfs:label xml:lang="en">Entire primary right first lower molar tooth socket</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/EntirePrimaryRightFirstUpperMolarToothSocket -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/EntirePrimaryRightFirstUpperMolarToothSocket">
+        <owl:equivalentClass rdf:resource="http://w3id.org/rdfbones/core#EntireToothSocket_fma317360"/>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#EntireToothSocket_fma317343"/>
+        <obo:IAO_0000116 xml:lang="en">Helper class that was exclusively introduced to facilitate software implementation. For analytical purposes, the stated equivalent class is relevant.</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Felix Engel</obo:IAO_0000119>
+        <fma:regional_part_of rdf:resource="http://purl.org/sig/ont/fma/fma317360"/>
+        <rdfs:label xml:lang="en">Entire primary right first upper molar tooth socket</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/EntirePrimaryRightLowerCanineToothSocket -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/EntirePrimaryRightLowerCanineToothSocket">
+        <owl:equivalentClass rdf:resource="http://w3id.org/rdfbones/core#EntireToothSocket_fma317386"/>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#EntireToothSocket_fma317343"/>
+        <obo:IAO_0000116 xml:lang="en">Helper class that was exclusively introduced to facilitate software implementation. For analytical purposes, the stated equivalent class is relevant.</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Felix Engel</obo:IAO_0000119>
+        <fma:regional_part_of rdf:resource="http://purl.org/sig/ont/fma/fma317386"/>
+        <rdfs:label xml:lang="en">Entire primary right lower canine tooth socket</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/EntirePrimaryRightLowerCentralIncisorToothSocket -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/EntirePrimaryRightLowerCentralIncisorToothSocket">
+        <owl:equivalentClass rdf:resource="http://w3id.org/rdfbones/core#EntireToothSocket_fma317382"/>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#EntireToothSocket_fma317343"/>
+        <obo:IAO_0000116 xml:lang="en">Helper class that was exclusively introduced to facilitate software implementation. For analytical purposes, the stated equivalent class is relevant.</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Felix Engel</obo:IAO_0000119>
+        <fma:regional_part_of rdf:resource="http://purl.org/sig/ont/fma/fma317382"/>
+        <rdfs:label xml:lang="en">Entire primary right lower central incisor tooth socket</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/EntirePrimaryRightLowerLateralIncisorToothSocket -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/EntirePrimaryRightLowerLateralIncisorToothSocket">
+        <owl:equivalentClass rdf:resource="http://w3id.org/rdfbones/core#EntireToothSocket_fma317384"/>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#EntireToothSocket_fma317343"/>
+        <obo:IAO_0000116 xml:lang="en">Helper class that was exclusively introduced to facilitate software implementation. For analytical purposes, the stated equivalent class is relevant.</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Felix Engel</obo:IAO_0000119>
+        <fma:regional_part_of rdf:resource="http://purl.org/sig/ont/fma/fma317384"/>
+        <rdfs:label xml:lang="en">Entire primary right lower lateral incisor tooth socket</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/EntirePrimaryRightSecondLowerMolarToothSocket -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/EntirePrimaryRightSecondLowerMolarToothSocket">
+        <owl:equivalentClass rdf:resource="http://w3id.org/rdfbones/core#EntireToothSocket_fma317394"/>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#EntireToothSocket_fma317343"/>
+        <obo:IAO_0000116 xml:lang="en">Helper class that was exclusively introduced to facilitate software implementation. For analytical purposes, the stated equivalent class is relevant.</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Felix Engel</obo:IAO_0000119>
+        <fma:regional_part_of rdf:resource="http://purl.org/sig/ont/fma/fma317394"/>
+        <rdfs:label xml:lang="en">Entire primary right second lower molar tooth socket</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/EntirePrimaryRightSecondUpperMolarToothSocket -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/EntirePrimaryRightSecondUpperMolarToothSocket">
+        <owl:equivalentClass rdf:resource="http://w3id.org/rdfbones/core#EntireToothSocket_fma317362"/>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#EntireToothSocket_fma317343"/>
+        <obo:IAO_0000116 xml:lang="en">Helper class that was exclusively introduced to facilitate software implementation. For analytical purposes, the stated equivalent class is relevant.</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Felix Engel</obo:IAO_0000119>
+        <fma:regional_part_of rdf:resource="http://purl.org/sig/ont/fma/fma317362"/>
+        <rdfs:label xml:lang="en">Entire primary right second upper molar tooth socket</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/EntirePrimaryRightUpperCanineToothSocket -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/EntirePrimaryRightUpperCanineToothSocket">
+        <owl:equivalentClass rdf:resource="http://w3id.org/rdfbones/core#EntireToothSocket_fma317354"/>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#EntireToothSocket_fma317343"/>
+        <obo:IAO_0000116 xml:lang="en">Helper class that was exclusively introduced to facilitate software implementation. For analytical purposes, the stated equivalent class is relevant.</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Felix Engel</obo:IAO_0000119>
+        <fma:regional_part_of rdf:resource="http://purl.org/sig/ont/fma/fma317354"/>
+        <rdfs:label xml:lang="en">Entire primary right upper canine tooth socket</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/EntirePrimaryRightUpperCentralIncisorToothSocket -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/EntirePrimaryRightUpperCentralIncisorToothSocket">
+        <owl:equivalentClass rdf:resource="http://w3id.org/rdfbones/core#EntireToothSocket_fma317350"/>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#EntireToothSocket_fma317343"/>
+        <obo:IAO_0000116 xml:lang="en">Helper class that was exclusively introduced to facilitate software implementation. For analytical purposes, the stated equivalent class is relevant.</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Felix Engel</obo:IAO_0000119>
+        <fma:regional_part_of rdf:resource="http://purl.org/sig/ont/fma/fma317350"/>
+        <rdfs:label xml:lang="en">Entire primary right upper central incisor tooth socket</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/EntirePrimaryRightUpperLateralIncisorToothSocket -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/EntirePrimaryRightUpperLateralIncisorToothSocket">
+        <owl:equivalentClass rdf:resource="http://w3id.org/rdfbones/core#EntireToothSocket_fma317352"/>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#EntireToothSocket_fma317343"/>
+        <obo:IAO_0000116 xml:lang="en">Helper class that was exclusively introduced to facilitate software implementation. For analytical purposes, the stated equivalent class is relevant.</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Felix Engel</obo:IAO_0000119>
+        <fma:regional_part_of rdf:resource="http://purl.org/sig/ont/fma/fma317352"/>
+        <rdfs:label xml:lang="en">Entire primary right upper lateral incisor tooth socket</rdfs:label>
+    </owl:Class>
     
 
 
