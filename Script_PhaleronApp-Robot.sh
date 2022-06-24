@@ -101,9 +101,6 @@ robot merge --input phaleron-app.owl \
       --input Phaleron-DentalInventory/results/phaleron-di.owl \
       --output results/phaleron-app_ext.owl
 
-rm -r Phaleron-Pathologies/results/
-rm -r Phaleron-DentalInventory/results/
-
 if [ $phaleron -eq 1 ]; then
 
     robot annotate --input results/phaleron-app_ext.owl \
@@ -126,6 +123,10 @@ if [ $phaleron -ne 1 ]; then
     robot merge --input results/phaleron-app_ext.owl \
 	  --input Standards-SkeletalInventories/standards-si.owl \
 	  --input Standards-Pathologies/results/standards-patho.owl \
+	  --input Phaleron-DentalInventory/Dentalwear/results/dentalwear.owl \
+	  --input Phaleron-DentalInventory/DentDev/results/dentdev.owl \
+	  --input Phaleron-DentalInventory/Standards-Dental1/results/standards-dental1.owl \
+	  --input Phaleron-DentalInventory/Wearpatterns/results/wearpatterns.owl \
 	  --output results/phaleron-app_ext_dep.owl
 
     rm results/phaleron-app_ext.owl
