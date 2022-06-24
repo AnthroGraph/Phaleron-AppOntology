@@ -81,6 +81,14 @@ cd Phaleron-Pathologies/
 
 cd ..
 
+## Build phaleron-di.owl
+
+cd Phaleron-DentalInventory/
+
+./Script_PhaleronDI-Robot.sh -d -u
+
+cd ..
+
 
 ## Merge phaleron-app.owl with phaleron ontology extensions
 ## phaleron-app_ext.owl
@@ -90,9 +98,11 @@ rm -r results/
 robot merge --input phaleron-app.owl \
       --input Phaleron-SkeletalInventory/phaleron-si.owl \
       --input Phaleron-Pathologies/results/phaleron-patho.owl \
+      --input Phaleron-DentalInventory/results/phaleron-di.owl \
       --output results/phaleron-app_ext.owl
 
 rm -r Phaleron-Pathologies/results/
+rm -r Phaleron-DentalInventory/results/
 
 if [ $phaleron -eq 1 ]; then
 
