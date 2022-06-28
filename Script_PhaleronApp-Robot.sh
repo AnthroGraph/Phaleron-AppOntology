@@ -81,6 +81,14 @@ cd Phaleron-Pathologies/
 
 cd ..
 
+## Build phaleron-di.owl
+
+cd Phaleron-DentalInventory/
+
+./Script_PhaleronDI-Robot.sh -d -u
+
+cd ..
+
 
 ## Merge phaleron-app.owl with phaleron ontology extensions
 ## phaleron-app_ext.owl
@@ -90,9 +98,8 @@ rm -r results/
 robot merge --input phaleron-app.owl \
       --input Phaleron-SkeletalInventory/phaleron-si.owl \
       --input Phaleron-Pathologies/results/phaleron-patho.owl \
+      --input Phaleron-DentalInventory/results/phaleron-di.owl \
       --output results/phaleron-app_ext.owl
-
-rm -r Phaleron-Pathologies/results/
 
 if [ $phaleron -eq 1 ]; then
 
@@ -116,6 +123,10 @@ if [ $phaleron -ne 1 ]; then
     robot merge --input results/phaleron-app_ext.owl \
 	  --input Standards-SkeletalInventories/standards-si.owl \
 	  --input Standards-Pathologies/results/standards-patho.owl \
+	  --input Phaleron-DentalInventory/Dentalwear/results/dentalwear.owl \
+	  --input Phaleron-DentalInventory/DentDev/results/dentdev.owl \
+	  --input Phaleron-DentalInventory/Standards-Dental1/results/standards-dental1.owl \
+	  --input Phaleron-DentalInventory/Wearpatterns/results/wearpatterns.owl \
 	  --output results/phaleron-app_ext_dep.owl
 
     rm results/phaleron-app_ext.owl

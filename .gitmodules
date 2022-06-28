@@ -13,3 +13,6 @@
 [submodule "Phaleron-Pathologies"]
 	path = Phaleron-Pathologies
 	url = git@github.com:RDFBones/Phaleron-Pathologies.git
+[submodule "Phaleron-DentalInventory"]
+	path = Phaleron-DentalInventory
+	url = git@github.com:RDFBones/Phaleron-DentalInventory.git
