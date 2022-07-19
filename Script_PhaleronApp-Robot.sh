@@ -55,11 +55,14 @@ if [ -z "$gitchk" ];then
 fi
 
 
-## DEPENDENCIES
 
-## Build standards-patho.owl
 
 if [ $phaleron -ne 1 ]; then
+
+    ## DEPENDENCIES
+
+
+    ## Build standards-patho.owl
 
     cd Standards-Pathologies/
 
@@ -70,16 +73,7 @@ if [ $phaleron -ne 1 ]; then
 fi
 
 
-## BUILD ONTOLOGY
-
-
-## Build phaleron-patho.owl
-
-cd Phaleron-Pathologies/
-
-./Script_PhaleronPatho-Robot.sh -b -u -c
-
-cd ..
+## BUILD PHALERON ONTOLOGY EXTENSIONS
 
 ## Build phaleron-di.owl
 
@@ -89,16 +83,33 @@ cd Phaleron-DentalInventory/
 
 cd ..
 
+## Build phaleron-dpatho.owl
+
+cd Phaleron-DentalPathologies/
+    
+./Script_PhaleronDpatho-Robot.sh -b -u -c
+
+cd ..
+
+## Build phaleron-patho.owl
+
+cd Phaleron-Pathologies/
+
+./Script_PhaleronPatho-Robot.sh -b -u -c
+
+cd ..
+
 
 ## Merge phaleron-app.owl with phaleron ontology extensions
 ## phaleron-app_ext.owl
 
-rm -r results/
+rm -r results/*
 
 robot merge --input phaleron-app.owl \
       --input Phaleron-SkeletalInventory/phaleron-si.owl \
       --input Phaleron-Pathologies/results/phaleron-patho.owl \
       --input Phaleron-DentalInventory/results/phaleron-di.owl \
+      --input Phaleron-DentalPathologies/results/phaleron-dpatho.owl \
       --output results/phaleron-app_ext.owl
 
 if [ $phaleron -eq 1 ]; then
@@ -127,6 +138,8 @@ if [ $phaleron -ne 1 ]; then
 	  --input Phaleron-DentalInventory/DentDev/results/dentdev.owl \
 	  --input Phaleron-DentalInventory/Standards-Dental1/results/standards-dental1.owl \
 	  --input Phaleron-DentalInventory/Wearpatterns/results/wearpatterns.owl \
+	  --input Phaleron-DentalPathologies/BABAO/results/babao.owl \
+	  --input Phaleron-DentalPathologies/DentalPathology/results/dentpath.owl \
 	  --output results/phaleron-app_ext_dep.owl
 
     rm results/phaleron-app_ext.owl
