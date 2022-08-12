@@ -3668,6 +3668,374 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma52749"/> <!-- 'Entire hyoid bone' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>10400</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma7485"/> <!-- 'Entire sternum' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>20400</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/HeadOfCervicalRib"/> <!-- 'Head of cervical rib' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>30301</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/HeadOfFirstRib"/> <!-- 'Head of first rib' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>40301</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/HeadOfSecondRib"/> <!-- 'Head of second rib' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>50301</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/HeadOfThirdRib"/> <!-- 'Head of third rib' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>60301</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/HeadOfFourthRib"/> <!-- 'Head of fourth rib' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>70301</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/HeadOfFifthRib"/> <!-- 'Head of fifth rib' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>80301</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/HeadOfSixthRib"/> <!-- 'Head of sixth rib' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>90301</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/HeadOfSeventhRib"/> <!-- 'Head of seventh rib' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>100301</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/HeadOfEighthRib"/> <!-- 'Head of eighth rib' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>110301</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/HeadOfNinthRib"/> <!-- 'Head of ninth rib' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>120301</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/HeadOfTenthRib"/> <!-- 'Head of tenth rib' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>130301</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/HeadOfEleventhRib"/> <!-- 'Head of eleventh rib' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>140301</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/HeadOfTwelfthRib"/> <!-- 'Head of twelfth rib' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>150301</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/HeadOfThirteenthRib"/> <!-- 'Head of thirteenth rib' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>160301</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/HeadOfLumbarRib"/> <!-- 'Head of lumbar rib' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>170301</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/EntireHeadOfRib"/> <!-- 'Entire head of rib' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>180100</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/EntireHeadOfLeftRib"/> <!-- 'Entire head of left rib' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>180101</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/EntireHeadOfRightRib"/> <!-- 'Entire head of right rib' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>180102</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/core#EntireSetOfAllRibs"/> <!-- 'Entire set of all ribs' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>190000</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/EntireSetOfAllLeftRibs"/> <!-- 'Entire set of all left ribs' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>190001</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/EntireSetOfAllRightRibs"/> <!-- 'Entire set of all right ribs' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>190002</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Phaleron thorax articular regions of interest group</rdfs:label>
     </owl:Class>
     
@@ -4711,6 +5079,662 @@
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
                                 <owl:hasValue>020200</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma52749"/> <!-- 'Entire hyoid bone' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>10400</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma7485"/> <!-- 'Entire sternum' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>20400</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/HeadOfCervicalRib"/> <!-- 'Head of cervical rib' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>30301</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/BodyOfCervicalRib"/> <!-- 'Body of cervical rib' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>30302</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/HeadOfFirstRib"/> <!-- 'Head of first rib' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>40301</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/BodyOfFirstRib"/> <!-- 'Body of first rib' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>40302</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/HeadOfSecondRib"/> <!-- 'Head of second rib' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>50301</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/BodyOfSecondRib"/> <!-- 'Body of second rib' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>50302</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/HeadOfThirdRib"/> <!-- 'Head of third rib' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>60301</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/BodyOfThirdRib"/> <!-- 'Body of third rib' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>60302</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/HeadOfFourthRib"/> <!-- 'Head of fourth rib' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>70301</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/BodyOfFourthRib"/> <!-- 'Body of fourth rib' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>70302</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/HeadOfFifthRib"/> <!-- 'Head of fifth rib' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>80301</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/BodyOfFifthRib"/> <!-- 'Body of fifth rib' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>80302</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/HeadOfSixthRib"/> <!-- 'Head of sixth rib' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>90301</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/BodyOfSixthRib"/> <!-- 'Body of sixth rib' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>90302</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/HeadOfSeventhRib"/> <!-- 'Head of seventh rib' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>100301</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/BodyOfSeventhRib"/> <!-- 'Body of seventh rib' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>100302</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/HeadOfEighthRib"/> <!-- 'Head of eighth rib' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>110301</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/BodyOfEighthRib"/> <!-- 'Body of eighth rib' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>110302</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/HeadOfNinthRib"/> <!-- 'Head of ninth rib' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>120301</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/BodyOfNinthRib"/> <!-- 'Body of ninth rib' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>120302</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/HeadOfTenthRib"/> <!-- 'Head of tenth rib' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>130301</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/BodyOfTenthRib"/> <!-- 'Body of tenth rib' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>130302</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/HeadOfEleventhRib"/> <!-- 'Head of eleventh rib' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>140301</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/BodyOfEleventhRib"/> <!-- 'Body of eleventh rib' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>140302</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/HeadOfTwelfthRib"/> <!-- 'Head of twelfth rib' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>150301</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/BodyOfTwelfthRib"/> <!-- 'Body of twelfth rib' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>150302</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/HeadOfThirteenthRib"/> <!-- 'Head of thirteenth rib' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>160301</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/BodyOfThirteenthRib"/> <!-- 'Body of thirteenth rib' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>160302</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/HeadOfLumbarRib"/> <!-- 'Head of lumbar rib' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>170301</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/BodyOfLumbarRib"/> <!-- 'Body of lumbar rib' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>170302</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/EntireHeadOfRib"/> <!-- 'Entire head of rib' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>180100</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/EntireHeadOfLeftRib"/> <!-- 'Entire head of left rib' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>180101</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/EntireHeadOfRightRib"/> <!-- 'Entire head of right rib' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>180102</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/EntireBodyOfRib"/> <!-- 'Entire body of rib' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>180200</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/EntireBodyOfLeftRib"/> <!-- 'Entire body of left rib' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>180201</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/EntireBodyOfRightRib"/> <!-- 'Entire body of right rib' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>180202</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/core#EntireSetOfAllRibs"/> <!-- 'Entire set of all ribs' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>190000</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/EntireSetOfAllLeftRibs"/> <!-- 'Entire set of all left ribs' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>190001</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/EntireSetOfAllRightRibs"/> <!-- 'Entire set of all right ribs' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>190002</owl:hasValue>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
