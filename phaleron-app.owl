@@ -2388,6 +2388,150 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/ClavicularArticulationOfScapula"/> <!-- 'Clavicular articulation of scapula' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>10310</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma13394"/> <!-- 'Entire scapula' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>10400</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma13396"/> <!-- 'Entire left scapula' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>10401</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma13395"/> <!-- 'Entire right scapula' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>10402</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/MedialArticulationOfClavicle"/> <!-- 'Medial articulation of clavicle' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>20210</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/ScapularArticulationOfClavicle"/> <!-- 'Scapular articulation of clavicle' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>20310</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma13321"/> <!-- 'Entire clavicle' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>20400</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma13323"/> <!-- 'Entire left clavicle' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>20401</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma13322"/> <!-- 'Entire right clavicle' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>20402</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Phaleron shoulder girdle articular regions of interest group</rdfs:label>
     </owl:Class>
     
@@ -2583,6 +2727,198 @@
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
                                 <owl:hasValue>010202</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/BodyOfScapula"/> <!-- 'Body of scapula' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>10110</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/standards-si/GlenoidFossa"/> <!-- 'Glenoid fossa' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>10210</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/ClavicularArticulationOfScapula"/> <!-- 'Clavicular articulation of scapula' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>10310</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma13394"/> <!-- 'Entire scapula' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>10400</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma13396"/> <!-- 'Entire left scapula' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>10401</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma13395"/> <!-- 'Entire right scapula' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>10402</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/BodyOfClavicle"/> <!-- 'Body of clavicle' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>20110</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/MedialArticulationOfClavicle"/> <!-- 'Medial articulation of clavicle' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>20210</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/ScapularArticulationOfClavicle"/> <!-- 'Scapular articulation of clavicle' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>20310</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma13321"/> <!-- 'Entire clavicle' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>20400</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma13323"/> <!-- 'Entire left clavicle' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>20401</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma13322"/> <!-- 'Entire right clavicle' -->
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.w3.org/2006/vcard/ns#sort-string"/>
+                                <owl:hasValue>20402</owl:hasValue>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
