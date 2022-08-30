@@ -1,2 +1,8 @@
+# 'results' folder from robot branch
+results*
+
 # Emacs temporary files
 *#*
+
+# Other temporary files
+*~
