@@ -12,7 +12,7 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://w3id.org/rdfbones/ontology_resources/app/phaleron-app/latetst/phaleron-app.owl">
+    <owl:Ontology rdf:about="http://w3id.org/rdfbones/ontology_resources/app/phaleron-app/latest/phaleron-app.owl">
       <owl:versionIRI rdf:resource="http://w3id.org/rdfbones/ontology_resources/app/phaleron-app/v0-1/phaleron-app.owl"/>
 	<dc:date>2021-12-21</dc:date>
         <terms:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Felix Engel</terms:creator>
