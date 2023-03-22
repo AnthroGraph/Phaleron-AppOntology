@@ -70,6 +70,18 @@
     <!-- http://purl.org/sig/ont/fma/definition -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/sig/ont/fma/definition"/>
+
+    
+
+
+    <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/urlparam -->
+
+    <owl:AnnotationProperty rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/urlparam">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <obo:IAO_0000115>A relation between an element and a string that can be used as component of a URL. </obo:IAO_0000115>
+        <obo:IAO_0000112 xml:lang="en">A string defining a tab within an application user interface which is to be set as transfer target after some event.</obo:IAO_0000112>
+        <rdfs:label xml:lang="en">urlparam</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -104,20 +116,6 @@
     <!-- http://www.w3.org/2006/vcard/ns#sort-string -->
 
     <owl:DatatypeProperty rdf:about="http://www.w3.org/2006/vcard/ns#sort-string"/>
-
-    
-
-
-    <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/urlparam -->
-
-    <owl:DatatypeProperty rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/urlparam">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <obo:IAO_0000115>A relation between an element and a string that can be used as component of a URL. </obo:IAO_0000115>
-        <obo:IAO_0000112 xml:lang="en">A string defining a tab within an application user interface which is to be set as transfer target after some event.</obo:IAO_0000112>
-        <rdfs:label xml:lang="en">urlparam</rdfs:label>
-    </owl:DatatypeProperty>
     
 
 
@@ -14453,6 +14451,22 @@
     <!-- http://w3id.org/rdfbones/core#EntireBoneOrgan_fma9710 -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma9710"/>
+
+
+
+    <!-- http://w3id.org/rdfbones/ext/phaleron-patho/LowerLimbLongBoneAROISpecification -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-patho/LowerLimbLongBoneAROISpecification" >
+      <phaleron-app:urlparam>lowerlimb</phaleron-app:urlparam>
+    </owl:Class>
+
+
+
+    <!-- http://w3id.org/rdfbones/ext/phaleron-patho/UpperLimbLongBoneAROISpecification -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-patho/UpperLimbLongBoneAROISpecification" >
+      <phaleron-app:urlparam>upperlimb</phaleron-app:urlparam>
+    </owl:Class>
     
 
 
