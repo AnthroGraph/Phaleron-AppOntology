@@ -75,6 +75,14 @@ fi
 
 ## BUILD PHALERON ONTOLOGY EXTENSIONS
 
+## Build phaleron-ae.owl
+
+cd Phaleron-AgeEstimation/
+
+./Script-Build_OntologyExtension-Robot.sh -b -u -c
+
+cd ..
+
 ## Build phaleron-di.owl
 
 cd Phaleron-DentalInventory/
@@ -103,7 +111,7 @@ cd ..
 
 cd SucheyBrooksPubicAge/
 
-./Script-Build_OntologyExtension.sh -b -u -c
+./Script-Build_OntologyExtension-Robot.sh -b -u -c
 
 cd ..
 
@@ -119,6 +127,7 @@ robot merge --input phaleron-app.owl \
       --input Phaleron-DentalInventory/results/phaleron-di.owl \
       --input Phaleron-DentalPathologies/results/phaleron-dpatho.owl \
       --input SucheyBrooksPubicAge/results/sb.owl \
+      --input Phaleron-AgeEstimation/results/phaleron-ae.owl \
       --output results/phaleron-app_ext.owl
 
 if [ $phaleron -eq 1 ]; then

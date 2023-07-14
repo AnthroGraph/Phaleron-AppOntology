@@ -22,3 +22,6 @@
 [submodule "SucheyBrooksPubicAge"]
 	path = SucheyBrooksPubicAge
 	url = git@github.com:RDFBones/SucheyBrooksPubicAge.git
+[submodule "Phaleron-AgeEstimation"]
+	path = Phaleron-AgeEstimation
+	url = git@github.com:RDFBones/Phaleron-AgeEstimation.git
