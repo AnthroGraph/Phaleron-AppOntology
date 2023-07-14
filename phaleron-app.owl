@@ -73,6 +73,16 @@
     
 
 
+    <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/sexBasedContext -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/sig/ont/fma/definition">
+        <obo:IAO_0000115 xml:lang="en">Indicates the sex-based role of a specimen in the context of which a class is to be used.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://orcid.org/0009-0008-3871-9762, ""Felix Engel""</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">sex-based context</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
