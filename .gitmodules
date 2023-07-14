@@ -19,3 +19,6 @@
 [submodule "Phaleron-DentalPathologies"]
 	path = Phaleron-DentalPathologies
 	url = git@github.com:RDFBones/Phaleron-DentalPathologies.git
+[submodule "SucheyBrooksPubicAge"]
+	path = SucheyBrooksPubicAge
+	url = git@github.com:RDFBones/SucheyBrooksPubicAge.git

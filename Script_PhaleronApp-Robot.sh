@@ -99,6 +99,14 @@ cd Phaleron-Pathologies/
 
 cd ..
 
+## Build sb.owl
+
+cd SucheyBrooksPubicAge/
+
+./Script-Build_OntologyExtension.sh -b -u -c
+
+cd ..
+
 
 ## Merge phaleron-app.owl with phaleron ontology extensions
 ## phaleron-app_ext.owl
@@ -110,6 +118,7 @@ robot merge --input phaleron-app.owl \
       --input Phaleron-Pathologies/results/phaleron-patho.owl \
       --input Phaleron-DentalInventory/results/phaleron-di.owl \
       --input Phaleron-DentalPathologies/results/phaleron-dpatho.owl \
+      --input SucheyBrooksPubicAge/results/sb.owl \
       --output results/phaleron-app_ext.owl
 
 if [ $phaleron -eq 1 ]; then
