@@ -5,6 +5,7 @@
      xmlns:fma="http://purl.org/sig/ont/fma/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:phaleron-ae="http://w3id.org/rdfbones/ext/phaleron-ae/"
      xmlns:phaleron-app="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:rdfbones="http://w3id.org/rdfbones/core#"
@@ -178,6 +179,72 @@
       <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/AnatomicalROIGroup"/>
       <obo:IAO_0000115>An anatomical regions of interest group containing anatomical regions of interest that are part of some joint.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Articular regions of interest group</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/FemaleAgeEstimationDataset -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/FemaleAgeEstimationDataset">
+      <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-ae/AgeEstimationDataset"/>
+      <obo:IAO_0000115>Dataset containing the results of an age-at-death estimation investigation about a female specimen as performed by the Phaleron Bioarchaeological Project.
+</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Age estimation dataset about a female specimen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/FemalePubicAgeEstimationDatasetSection -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/FemalePubicAgeEstimationDatasetSection">
+      <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-ae/PubicAgeEstimationDatasetSection"/>
+      <obo:IAO_0000115>Section of a Phaleron Bioarchaeological Project age estimation dataset about a female specimen containing information acquired through methods based on observed deterioration of the pubic symphyses.
+</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Pubic age estimation dataset section about a female specimen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/IndeterminateSexAgeEstimationDataset -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/IndeterminateSexAgeEstimationDataset">
+      <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-ae/AgeEstimationDataset"/>
+      <obo:IAO_0000115>Dataset containing the results of an age-at-death estimation investigation about a specimen of undeterminate sex as performed by the Phaleron Bioarchaeological Project.
+</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Age estimation dataset about a specimen of indeterminate sex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/IndeterminateSexPubicAgeEstimationDatasetSection -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/IndeterminateSexPubicAgeEstimationDatasetSection">
+      <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-ae/PubicAgeEstimationDatasetSection"/>
+      <obo:IAO_0000115>Section of a Phaleron Bioarchaeological Project age estimation dataset about a specimen of indeterminate sex containing information acquired through methods based on observed deterioration of the pubic symphyses.
+</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Pubic age estimation dataset section about a specimen of indeterminate sex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/MaleAgeEstimationDataset -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/MaleAgeEstimationDataset">
+      <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-ae/AgeEstimationDataset"/>
+      <obo:IAO_0000115>Dataset containing the results of an age-at-death estimation investigation about a male specimen as performed by the Phaleron Bioarchaeological Project.
+</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Age estimation dataset about a male specimen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/MalePubicAgeEstimationDatasetSection -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/MalePubicAgeEstimationDatasetSection">
+      <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-ae/PubicAgeEstimationDatasetSection"/>
+      <obo:IAO_0000115>Section of a Phaleron Bioarchaeological Project age estimation dataset about a male specimen containing information acquired through methods based on observed deterioration of the pubic symphyses.
+</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Pubic age estimation dataset section about a male specimen</rdfs:label>
     </owl:Class>
     
 
