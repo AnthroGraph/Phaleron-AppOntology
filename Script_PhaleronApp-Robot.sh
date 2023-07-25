@@ -128,6 +128,7 @@ robot merge --input phaleron-app.owl \
       --input Phaleron-DentalPathologies/results/phaleron-dpatho.owl \
       --input SucheyBrooksPubicAge/results/sb.owl \
       --input Phaleron-AgeEstimation/results/phaleron-ae.owl \
+      --input Phaleron-SexEstimation/phaleron-se.owl \
       --output results/phaleron-app_ext.owl
 
 if [ $phaleron -eq 1 ]; then
