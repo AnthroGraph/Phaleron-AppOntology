@@ -25,3 +25,6 @@
 [submodule "Phaleron-AgeEstimation"]
 	path = Phaleron-AgeEstimation
 	url = git@github.com:RDFBones/Phaleron-AgeEstimation.git
+[submodule "Phaleron-SexEstimation"]
+	path = Phaleron-SexEstimation
+	url = git@github.com:RDFBones/Phaleron-SexEstimation.git
