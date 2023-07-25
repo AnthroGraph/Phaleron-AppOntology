@@ -9,6 +9,7 @@
      xmlns:phaleron-app="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:rdfbones="http://w3id.org/rdfbones/core#"
+     xmlns:sb="http://w3id.org/rdfbones/ext/sb/"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
@@ -86,16 +87,6 @@
     
 
 
-    <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/sexBasedContext -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/sig/ont/fma/definition">
-        <obo:IAO_0000115 xml:lang="en">Indicates the sex-based role of a specimen in the context of which a class is to be used.</obo:IAO_0000115>
-        <obo:IAO_0000119>https://orcid.org/0009-0008-3871-9762, ""Felix Engel""</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">sex-based context</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -107,9 +98,21 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000051 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000051"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000136 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000136"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000299 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000299"/>
     
 
 
@@ -185,70 +188,16 @@
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/FemaleAgeEstimationDataset">
       <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-ae/AgeEstimationDataset"/>
-      <rdfs:subClassOf>
-	<owl:Restriction>
-	  <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
-	  <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-	  <owl:onClass rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/FemalePubicAgeEstimationDatasetSection"/>	  
-	</owl:Restriction>
-      </rdfs:subClassOf>
-      <obo:IAO_0000115>Dataset containing the results of an age-at-death estimation investigation about a female specimen as performed by the Phaleron Bioarchaeological Project.
-</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Age estimation dataset about a female specimen</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/FemalePubicAgeEstimationDatasetSection -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/FemalePubicAgeEstimationDatasetSection">
-      <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-ae/PubicAgeEstimationDatasetSection"/>
-      <rdfs:subClassOf>
-	<owl:Restriction>
-	  <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
-	  <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
-	  <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/phaleron-ae/SucheyBrooksAgeEstimate"/>	  
-	</owl:Restriction>
-      </rdfs:subClassOf>
-      <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onClass>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/sb/FemalePubicSymphysisMorphologicalStage"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/phaleron-si/LeftSymphysealSurfaceOfPubis"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:onClass>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onClass>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/sb/FemalePubicSymphysisMorphologicalStage"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/phaleron-si/RightSymphysealSurfaceOfPubis"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:onClass>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/FemalePubicAgeEstimationDatasetSection"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-      <obo:IAO_0000115>Section of a Phaleron Bioarchaeological Project age estimation dataset about a female specimen containing information acquired through methods based on observed deterioration of the pubic symphyses.
+      <obo:IAO_0000115>Dataset containing the results of an age-at-death estimation investigation about a female specimen as performed by the Phaleron Bioarchaeological Project.
 </obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Pubic age estimation dataset section about a female specimen</rdfs:label>
+        <rdfs:label xml:lang="en">Age estimation dataset about a female specimen</rdfs:label>
     </owl:Class>
     
 
@@ -257,15 +206,70 @@
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/FemaleAgeEstimationProcess">
       <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-ae/AgeEstimationProcess"/>
-      <rdfs:subClassOf>
-	<owl:Restriction>
-	  <owl:onProperty rdf:resorce="http://purl.obolibrary.org/obo/OBI_0000299"/>
-	  <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/FemaleAgeEstimationDataset"/>
-	</owl:Restriction>
-      </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/> <!-- 'has specified output' -->
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/FemalePubicAgeEstimationDataset"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
       <obo:IAO_0000115>An investigation that estimates age at death of a female skeletal specimen following the routines defined by and for the Phaleron Bioarchaeological Project.
 </obo:IAO_0000115>
         <rdfs:label xml:lang="en">Female age estimation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/FemalePubicAgeEstimationDatasetSection -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/FemalePubicAgeEstimationDatasetSection">
+      <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-ae/PubicAgeEstimationDatasetSection"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/phaleron-ae/SucheyBrooksAgeEstimate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+      <rdfs:subClassOf>
+	<owl:Restriction>
+	  <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+	  <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+	  <owl:onClass>
+	    <owl:Class>
+	      <owl:intersectionOf rdf:parseType="Collection">
+		<rdf:Description rdf:about="http://w3id.org/rdfbones/ext/sb/FemalePubicSymphysisMorphologicalStage"/>
+		<owl:Restriction>
+		  <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+		  <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+		  <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/phaleron-si/LeftSymphysealSurfaceOfPubis"/>
+		</owl:Restriction>
+	      </owl:intersectionOf>
+	    </owl:Class>
+	  </owl:onClass>
+	  </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:subClassOf>
+	<owl:Restriction>
+	  <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+	  <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+	  <owl:onClass>
+	    <owl:Class>
+	      <owl:intersectionOf rdf:parseType="Collection">
+		<rdf:Description rdf:about="http://w3id.org/rdfbones/ext/sb/FemalePubicSymphysisMorphologicalStage"/>
+		<owl:Restriction>
+		  <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+		  <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+		  <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/phaleron-si/RightSymphysealSurfaceOfPubis"/>
+		</owl:Restriction>
+	      </owl:intersectionOf>
+	    </owl:Class>
+	  </owl:onClass>
+	  </owl:Restriction>
+      </rdfs:subClassOf>
+      <obo:IAO_0000115>Section of a Phaleron Bioarchaeological Project age estimation dataset about a female specimen containing information acquired through methods based on observed deterioration of the pubic symphyses.
+</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Pubic age estimation dataset section about a female specimen</rdfs:label>
     </owl:Class>
     
 
@@ -274,70 +278,16 @@
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/IndeterminateSexAgeEstimationDataset">
       <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-ae/AgeEstimationDataset"/>
-      <rdfs:subClassOf>
-	<owl:Restriction>
-	  <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
-	  <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-	  <owl:onClass rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/IndeterminateSexPubicAgeEstimationDatasetSection"/>	  
-	</owl:Restriction>
-      </rdfs:subClassOf>
-      <obo:IAO_0000115>Dataset containing the results of an age-at-death estimation investigation about a specimen of undeterminate sex as performed by the Phaleron Bioarchaeological Project.
-</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Age estimation dataset about a specimen of indeterminate sex</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/IndeterminateSexPubicAgeEstimationDatasetSection -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/IndeterminateSexPubicAgeEstimationDatasetSection">
-      <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-ae/PubicAgeEstimationDatasetSection"/>
-      <rdfs:subClassOf>
-	<owl:Restriction>
-	  <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
-	  <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
-	  <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/phaleron-ae/SucheyBrooksAgeEstimate"/>	  
-	</owl:Restriction>
-      </rdfs:subClassOf>
-      <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onClass>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-ae/IndeterminateSexPubicSymphysisMorphologicalPhase"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/phaleron-si/LeftSymphysealSurfaceOfPubis"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:onClass>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onClass>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-ae/IndeterminateSexPubicSymphysisMorphologicalPhase"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/phaleron-si/RightSymphysealSurfaceOfPubis"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:onClass>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/IndeterminateSexPubicAgeEstimationDatasetSection"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-      <obo:IAO_0000115>Section of a Phaleron Bioarchaeological Project age estimation dataset about a specimen of indeterminate sex containing information acquired through methods based on observed deterioration of the pubic symphyses.
+      <obo:IAO_0000115>Dataset containing the results of an age-at-death estimation investigation about a specimen of undeterminate sex as performed by the Phaleron Bioarchaeological Project.
 </obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Pubic age estimation dataset section about a specimen of indeterminate sex</rdfs:label>
+        <rdfs:label xml:lang="en">Age estimation dataset about a specimen of indeterminate sex</rdfs:label>
     </owl:Class>
     
 
@@ -346,15 +296,70 @@
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/IndeterminateSexAgeEstimationProcess">
       <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-ae/AgeEstimationProcess"/>
-      <rdfs:subClassOf>
-	<owl:Restriction>
-	  <owl:onProperty rdf:resorce="http://purl.obolibrary.org/obo/OBI_0000299"/>
-	  <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/IndeterminateSexAgeEstimationDataset"/>
-	</owl:Restriction>
-      </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/> <!-- 'has specified output' -->
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/IndeterminateSexAgeEstimationDataset"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
       <obo:IAO_0000115>An investigation that estimates age at death of a skeletal specimen of indeterminate sex following the routines defined by and for the Phaleron Bioarchaeological Project.
 </obo:IAO_0000115>
         <rdfs:label xml:lang="en">Age estimation about a specimen of indeterminate sex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/IndeterminateSexPubicAgeEstimationDatasetSection -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/IndeterminateSexPubicAgeEstimationDatasetSection">
+      <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-ae/PubicAgeEstimationDatasetSection"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/phaleron-ae/SucheyBrooksAgeEstimate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+      <rdfs:subClassOf>
+	<owl:Restriction>
+	  <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+	  <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+	  <owl:onClass>
+	    <owl:Class>
+	      <owl:intersectionOf rdf:parseType="Collection">
+		<rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-ae/IndeterminateSexPubicSymphysisMorphologicalPhase"/>
+		<owl:Restriction>
+		  <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+		  <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+		  <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/phaleron-si/LeftSymphysealSurfaceOfPubis"/>
+		</owl:Restriction>
+	      </owl:intersectionOf>
+	    </owl:Class>
+	  </owl:onClass>
+	  </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:subClassOf>
+	<owl:Restriction>
+	  <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+	  <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+	  <owl:onClass>
+	    <owl:Class>
+	      <owl:intersectionOf rdf:parseType="Collection">
+		<rdf:Description rdf:about="http://w3id.org/rdfbones/ext/phaleron-ae/IndeterminateSexPubicSymphysisMorphologicalPhase"/>
+		<owl:Restriction>
+		  <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+		  <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+		  <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/phaleron-si/RightSymphysealSurfaceOfPubis"/>
+		</owl:Restriction>
+	      </owl:intersectionOf>
+	    </owl:Class>
+	  </owl:onClass>
+	  </owl:Restriction>
+      </rdfs:subClassOf>
+      <obo:IAO_0000115>Section of a Phaleron Bioarchaeological Project age estimation dataset about a specimen of indeterminate sex containing information acquired through methods based on observed deterioration of the pubic symphyses.
+</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Pubic age estimation dataset section about a specimen of indeterminate sex</rdfs:label>
     </owl:Class>
     
 
@@ -363,70 +368,16 @@
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/MaleAgeEstimationDataset">
       <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-ae/AgeEstimationDataset"/>
-      <rdfs:subClassOf>
-	<owl:Restriction>
-	  <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
-	  <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-	  <owl:onClass rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/MalePubicAgeEstimationDatasetSection"/>	  
-	</owl:Restriction>
-      </rdfs:subClassOf>
-      <obo:IAO_0000115>Dataset containing the results of an age-at-death estimation investigation about a male specimen as performed by the Phaleron Bioarchaeological Project.
-</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Age estimation dataset about a male specimen</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/MalePubicAgeEstimationDatasetSection -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/MalePubicAgeEstimationDatasetSection">
-      <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-ae/PubicAgeEstimationDatasetSection"/>
-      <rdfs:subClassOf>
-	<owl:Restriction>
-	  <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/> <!-- 'has part' -->
-	  <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
-	  <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/phaleron-ae/SucheyBrooksAgeEstimate"/>	  
-	</owl:Restriction>
-      </rdfs:subClassOf>
-      <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onClass>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/sb/MalePubicSymphysisMorphologicalStage"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/phaleron-si/LeftSymphysealSurfaceOfPubis"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:onClass>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onClass>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://w3id.org/rdfbones/ext/sb/MalePubicSymphysisMorphologicalStage"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/phaleron-si/RightSymphysealSurfaceOfPubis"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:onClass>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/MalePubicAgeEstimationDatasetSection"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-      <obo:IAO_0000115>Section of a Phaleron Bioarchaeological Project age estimation dataset about a male specimen containing information acquired through methods based on observed deterioration of the pubic symphyses.
+      <obo:IAO_0000115>Dataset containing the results of an age-at-death estimation investigation about a male specimen as performed by the Phaleron Bioarchaeological Project.
 </obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Pubic age estimation dataset section about a male specimen</rdfs:label>
+        <rdfs:label xml:lang="en">Age estimation dataset about a male specimen</rdfs:label>
     </owl:Class>
     
 
@@ -435,15 +386,70 @@
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/MaleAgeEstimationProcess">
       <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-ae/AgeEstimationProcess"/>
-      <rdfs:subClassOf>
-	<owl:Restriction>
-	  <owl:onProperty rdf:resorce="http://purl.obolibrary.org/obo/OBI_0000299"/>
-	  <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/MaleAgeEstimationDataset"/>
-	</owl:Restriction>
-      </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/> <!-- 'has specified output' -->
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/MaleAgeEstimationDataset"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
       <obo:IAO_0000115>An investigation that estimates age at death of a male skeletal specimen following the routines defined by and for the Phaleron Bioarchaeological Project.
 </obo:IAO_0000115>
         <rdfs:label xml:lang="en">Male age estimation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/MalePubicAgeEstimationDatasetSection -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/MalePubicAgeEstimationDatasetSection">
+      <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-ae/PubicAgeEstimationDatasetSection"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/phaleron-ae/SucheyBrooksAgeEstimate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+      <rdfs:subClassOf>
+	<owl:Restriction>
+	  <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+	  <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+	  <owl:onClass>
+	    <owl:Class>
+	      <owl:intersectionOf rdf:parseType="Collection">
+		<rdf:Description rdf:about="http://w3id.org/rdfbones/ext/sb/MalePubicSymphysisMorphologicalStage"/>
+		<owl:Restriction>
+		  <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+		  <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+		  <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/phaleron-si/LeftSymphysealSurfaceOfPubis"/>
+		</owl:Restriction>
+	      </owl:intersectionOf>
+	    </owl:Class>
+	  </owl:onClass>
+	  </owl:Restriction>
+      </rdfs:subClassOf>
+      <rdfs:subClassOf>
+	<owl:Restriction>
+	  <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+	  <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+	  <owl:onClass>
+	    <owl:Class>
+	      <owl:intersectionOf rdf:parseType="Collection">
+		<rdf:Description rdf:about="http://w3id.org/rdfbones/ext/sb/MalePubicSymphysisMorphologicalStage"/>
+		<owl:Restriction>
+		  <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+		  <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+		  <owl:onClass rdf:resource="http://w3id.org/rdfbones/ext/phaleron-si/RightSymphysealSurfaceOfPubis"/>
+		</owl:Restriction>
+	      </owl:intersectionOf>
+	    </owl:Class>
+	  </owl:onClass>
+	  </owl:Restriction>
+      </rdfs:subClassOf>
+      <obo:IAO_0000115>Section of a Phaleron Bioarchaeological Project age estimation dataset about a male specimen containing information acquired through methods based on observed deterioration of the pubic symphyses.
+</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Pubic age estimation dataset section about a male specimen</rdfs:label>
     </owl:Class>
     
 
@@ -14748,35 +14754,15 @@
     
 
 
-    <!-- http://w3id.org/rdfbones/ext/phaleron-ae/AssigningTheFemaleRoleForAgeEstimation -->
+    <!-- http://w3id.org/rdfbones/ext/phaleron-ae/IndeterminateSexPubicSymphysisMorphologicalPhase -->
 
-    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-ae/AssigningTheFemaleRoleForAgeEstimation">
-      <phaleron-app:sexBasedContext>fem</phaleron-app:sexBasedContext>
-  </owl:Class>
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-ae/IndeterminateSexPubicSymphysisMorphologicalPhase"/>
     
 
 
-    <!-- http://w3id.org/rdfbones/ext/phaleron-ae/AssigningTheMaleRoleForAgeEstimation -->
+    <!-- http://w3id.org/rdfbones/ext/phaleron-ae/SucheyBrooksAgeEstimate -->
 
-    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-ae/AssigningTheMaleRoleForAgeEstimation">
-      <phaleron-app:sexBasedContext>mal</phaleron-app:sexBasedContext>
-  </owl:Class>
-    
-
-
-    <!-- http://w3id.org/rdfbones/ext/phaleron-ae/FemaleSpecimenRole -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-ae/FemaleSpecimenRole">
-      <phaleron-app:sexBasedContext>fem</phaleron-app:sexBasedContext>
-  </owl:Class>
-    
-
-
-    <!-- http://w3id.org/rdfbones/ext/phaleron-ae/MaleSpecimenRole -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-ae/MaleSpecimenRole">
-      <phaleron-app:sexBasedContext>mal</phaleron-app:sexBasedContext>
-  </owl:Class>
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-ae/SucheyBrooksAgeEstimate"/>
     
 
 
@@ -15809,6 +15795,18 @@
     <!-- http://w3id.org/rdfbones/ext/phaleron-si/XiphoidProcess -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-si/XiphoidProcess"/>
+
+
+
+    <!-- http://w3id.org/rdfbones/ext/sb/FemalePubicSymphysisMorphologicalStage -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/sb/FemalePubicSymphysisMorphologicalStage"/>
+
+
+
+    <!-- http://w3id.org/rdfbones/ext/sb/MalePubicSymphysisMorphologicalStage -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/sb/MalePubicSymphysisMorphologicalStage"/>
     
 
 
@@ -15827,198 +15825,6 @@
     <!-- http://w3id.org/rdfbones/ext/standards-si/BodyOfRightScapula -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/ext/standards-si/BodyOfRightScapula"/>
-    
-
-
-    <!-- http://w3id.org/rdfbones/ext/sb/Female95PercentAgeRange -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/sb/Female95PercentAgeRange">
-      <phaleron-app:sexBasedContext>fem</phaleron-app:sexBasedContext>
-  </owl:Class>
-    
-
-
-    <!-- http://w3id.org/rdfbones/ext/sb/FemaleAgeRangeAssociation -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/sb/FemaleAgeRangeAssociation">
-      <phaleron-app:sexBasedContext>fem</phaleron-app:sexBasedContext>
-  </owl:Class>
-    
-
-
-    <!-- http://w3id.org/rdfbones/ext/sb/FemaleAgeRangeValueSpecification -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/sb/FemaleAgeRangeValueSpecification">
-      <phaleron-app:sexBasedContext>fem</phaleron-app:sexBasedContext>
-  </owl:Class>
-    
-
-
-    <!-- http://w3id.org/rdfbones/ext/sb/FemalePhase1AgeRangeAssociation -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/sb/FemalePhase1AgeRangeAssociation">
-      <phaleron-app:sexBasedContext>fem</phaleron-app:sexBasedContext>
-  </owl:Class>
-    
-
-
-    <!-- http://w3id.org/rdfbones/ext/sb/FemalePhase2AgeRangeAssociation -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/sb/FemalePhase2AgeRangeAssociation">
-      <phaleron-app:sexBasedContext>fem</phaleron-app:sexBasedContext>
-  </owl:Class>
-    
-
-
-    <!-- http://w3id.org/rdfbones/ext/sb/FemalePhase3AgeRangeAssociation -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/sb/FemalePhase3AgeRangeAssociation">
-      <phaleron-app:sexBasedContext>fem</phaleron-app:sexBasedContext>
-  </owl:Class>
-    
-
-
-    <!-- http://w3id.org/rdfbones/ext/sb/FemalePhase4AgeRangeAssociation -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/sb/FemalePhase4AgeRangeAssociation">
-      <phaleron-app:sexBasedContext>fem</phaleron-app:sexBasedContext>
-  </owl:Class>
-    
-
-
-    <!-- http://w3id.org/rdfbones/ext/sb/FemalePhase5AgeRangeAssociation -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/sb/FemalePhase5AgeRangeAssociation">
-      <phaleron-app:sexBasedContext>fem</phaleron-app:sexBasedContext>
-  </owl:Class>
-    
-
-
-    <!-- http://w3id.org/rdfbones/ext/sb/FemalePhase6AgeRangeAssociation -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/sb/FemalePhase6AgeRangeAssociation">
-      <phaleron-app:sexBasedContext>fem</phaleron-app:sexBasedContext>
-  </owl:Class>
-    
-
-
-    <!-- http://w3id.org/rdfbones/ext/sb/FemalePubicSymphysisMorphologicalPhase -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/sb/FemalePubicSymphysisMorphologicalPhase">
-      <phaleron-app:sexBasedContext>fem</phaleron-app:sexBasedContext>
-  </owl:Class>
-    
-
-
-    <!-- http://w3id.org/rdfbones/ext/sb/FemalePubicSymphysisMorphologicalStageAssignment -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/sb/FemalePubicSymphysisMorphologicalStageAssignment">
-      <phaleron-app:sexBasedContext>fem</phaleron-app:sexBasedContext>
-  </owl:Class>
-    
-
-
-    <!-- http://w3id.org/rdfbones/ext/sb/FemalePubicSymphysisMorphologicalStageValueSpecification -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/sb/FemalePubicSymphysisMorphologicalStageValueSpecification">
-      <phaleron-app:sexBasedContext>fem</phaleron-app:sexBasedContext>
-  </owl:Class>
-    
-
-
-    <!-- http://w3id.org/rdfbones/ext/sb/Male95PercentAgeRange -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/sb/Male95PercentAgeRange">
-      <phaleron-app:sexBasedContext>mal</phaleron-app:sexBasedContext>
-  </owl:Class>
-    
-
-
-    <!-- http://w3id.org/rdfbones/ext/sb/MaleAgeRangeAssociation -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/sb/MaleAgeRangeAssociation">
-      <phaleron-app:sexBasedContext>mal</phaleron-app:sexBasedContext>
-  </owl:Class>
-    
-
-
-    <!-- http://w3id.org/rdfbones/ext/sb/MaleAgeRangeValueSpecification -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/sb/MaleAgeRangeValueSpecification">
-      <phaleron-app:sexBasedContext>mal</phaleron-app:sexBasedContext>
-  </owl:Class>
-    
-
-
-    <!-- http://w3id.org/rdfbones/ext/sb/MalePhase1AgeRangeAssociation -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/sb/MalePhase1AgeRangeAssociation">
-      <phaleron-app:sexBasedContext>mal</phaleron-app:sexBasedContext>
-  </owl:Class>
-    
-
-
-    <!-- http://w3id.org/rdfbones/ext/sb/MalePhase2AgeRangeAssociation -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/sb/MalePhase2AgeRangeAssociation">
-      <phaleron-app:sexBasedContext>mal</phaleron-app:sexBasedContext>
-  </owl:Class>
-    
-
-
-    <!-- http://w3id.org/rdfbones/ext/sb/MalePhase3AgeRangeAssociation -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/sb/MalePhase3AgeRangeAssociation">
-      <phaleron-app:sexBasedContext>mal</phaleron-app:sexBasedContext>
-  </owl:Class>
-    
-
-
-    <!-- http://w3id.org/rdfbones/ext/sb/MalePhase4AgeRangeAssociation -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/sb/MalePhase4AgeRangeAssociation">
-      <phaleron-app:sexBasedContext>mal</phaleron-app:sexBasedContext>
-  </owl:Class>
-    
-
-
-    <!-- http://w3id.org/rdfbones/ext/sb/MalePhase5AgeRangeAssociation -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/sb/MalePhase5AgeRangeAssociation">
-      <phaleron-app:sexBasedContext>mal</phaleron-app:sexBasedContext>
-  </owl:Class>
-    
-
-
-    <!-- http://w3id.org/rdfbones/ext/sb/MalePhase6AgeRangeAssociation -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/sb/MalePhase6AgeRangeAssociation">
-      <phaleron-app:sexBasedContext>mal</phaleron-app:sexBasedContext>
-  </owl:Class>
-    
-
-
-    <!-- http://w3id.org/rdfbones/ext/sb/MalePubicSymphysisMorphologicalPhase -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/sb/MalePubicSymphysisMorphologicalPhase">
-      <phaleron-app:sexBasedContext>mal</phaleron-app:sexBasedContext>
-  </owl:Class>
-    
-
-
-    <!-- http://w3id.org/rdfbones/ext/sb/MalePubicSymphysisMorphologicalStageAssignment -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/sb/MalePubicSymphysisMorphologicalStageAssignment">
-      <phaleron-app:sexBasedContext>mal</phaleron-app:sexBasedContext>
-  </owl:Class>
-    
-
-
-    <!-- http://w3id.org/rdfbones/ext/sb/MalePubicSymphysisMorphologicalStageValueSpecification -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/sb/MalePubicSymphysisMorphologicalStageValueSpecification">
-      <phaleron-app:sexBasedContext>mal</phaleron-app:sexBasedContext>
-  </owl:Class>
     
 
 
