@@ -98,6 +98,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0000299 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000299"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -198,6 +204,24 @@
     
 
 
+    <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/FemaleAgeEstimationProcess -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/FemaleAgeEstimationProcess">
+      <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-ae/AgeEstimationProcess"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/> <!-- 'has specified output' -->
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/FemalePubicAgeEstimationDataset"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+      <obo:IAO_0000115>An investigation that estimates age at death of a female skeletal specimen following the routines defined by and for the Phaleron Bioarchaeological Project.
+</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Female age estimation</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/FemalePubicAgeEstimationDatasetSection -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/FemalePubicAgeEstimationDatasetSection">
@@ -270,6 +294,24 @@
     
 
 
+    <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/IndeterminateSexAgeEstimationProcess -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/IndeterminateSexAgeEstimationProcess">
+      <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-ae/AgeEstimationProcess"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/> <!-- 'has specified output' -->
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/IndeterminateSexAgeEstimationDataset"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+      <obo:IAO_0000115>An investigation that estimates age at death of a skeletal specimen of indeterminate sex following the routines defined by and for the Phaleron Bioarchaeological Project.
+</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Age estimation about a specimen of indeterminate sex</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/IndeterminateSexPubicAgeEstimationDatasetSection -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/IndeterminateSexPubicAgeEstimationDatasetSection">
@@ -338,6 +380,24 @@
       <obo:IAO_0000115>Dataset containing the results of an age-at-death estimation investigation about a male specimen as performed by the Phaleron Bioarchaeological Project.
 </obo:IAO_0000115>
         <rdfs:label xml:lang="en">Age estimation dataset about a male specimen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/MaleAgeEstimationProcess -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/MaleAgeEstimationProcess">
+      <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-ae/AgeEstimationProcess"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/> <!-- 'has specified output' -->
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/MaleAgeEstimationDataset"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+      <obo:IAO_0000115>An investigation that estimates age at death of a male skeletal specimen following the routines defined by and for the Phaleron Bioarchaeological Project.
+</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Male age estimation</rdfs:label>
     </owl:Class>
     
 
