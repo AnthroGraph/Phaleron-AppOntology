@@ -200,16 +200,17 @@
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/FemaleAgeEstimationDataset">
       <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-ae/AgeEstimationDataset"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/FemalePubicAgeEstimationDatasetSection"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+      <rdfs:subClassOf>
+	<owl:Restriction>
+	  <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+	  <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+	  <owl:onClass rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/FemalePubicAgeEstimationDatasetSection"/>
+	</owl:Restriction>
+      </rdfs:subClassOf>
       <obo:IAO_0000115>Dataset containing the results of an age-at-death estimation investigation about a female specimen as performed by the Phaleron Bioarchaeological Project.
-</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Age estimation dataset about a female specimen</rdfs:label>
+      </obo:IAO_0000115>
+      <phaleron-app:sexBasedContext>fem</phaleron-app:sexBasedContext>
+      <rdfs:label xml:lang="en">Age estimation dataset about a female specimen</rdfs:label>
     </owl:Class>
     
 
@@ -227,6 +228,7 @@
         </rdfs:subClassOf>
       <obo:IAO_0000115>An investigation that estimates age at death of a female skeletal specimen following the routines defined by and for the Phaleron Bioarchaeological Project.
 </obo:IAO_0000115>
+      <phaleron-app:sexBasedContext>fem</phaleron-app:sexBasedContext>
         <rdfs:label xml:lang="en">Female age estimation</rdfs:label>
     </owl:Class>
     
@@ -281,6 +283,7 @@
       </rdfs:subClassOf>
       <obo:IAO_0000115>Section of a Phaleron Bioarchaeological Project age estimation dataset about a female specimen containing information acquired through methods based on observed deterioration of the pubic symphyses.
 </obo:IAO_0000115>
+      <phaleron-app:sexBasedContext>fem</phaleron-app:sexBasedContext>
         <rdfs:label xml:lang="en">Pubic age estimation dataset section about a female specimen</rdfs:label>
     </owl:Class>
     
@@ -299,6 +302,7 @@
         </rdfs:subClassOf>
       <obo:IAO_0000115>Dataset containing the results of an age-at-death estimation investigation about a specimen of undeterminate sex as performed by the Phaleron Bioarchaeological Project.
 </obo:IAO_0000115>
+      <phaleron-app:sexBasedContext>ind</phaleron-app:sexBasedContext>
         <rdfs:label xml:lang="en">Age estimation dataset about a specimen of indeterminate sex</rdfs:label>
     </owl:Class>
     
@@ -317,6 +321,7 @@
         </rdfs:subClassOf>
       <obo:IAO_0000115>An investigation that estimates age at death of a skeletal specimen of indeterminate sex following the routines defined by and for the Phaleron Bioarchaeological Project.
 </obo:IAO_0000115>
+      <phaleron-app:sexBasedContext>ind</phaleron-app:sexBasedContext>
         <rdfs:label xml:lang="en">Age estimation about a specimen of indeterminate sex</rdfs:label>
     </owl:Class>
     
@@ -371,6 +376,7 @@
       </rdfs:subClassOf>
       <obo:IAO_0000115>Section of a Phaleron Bioarchaeological Project age estimation dataset about a specimen of indeterminate sex containing information acquired through methods based on observed deterioration of the pubic symphyses.
 </obo:IAO_0000115>
+      <phaleron-app:sexBasedContext>ind</phaleron-app:sexBasedContext>
         <rdfs:label xml:lang="en">Pubic age estimation dataset section about a specimen of indeterminate sex</rdfs:label>
     </owl:Class>
     
@@ -389,6 +395,7 @@
         </rdfs:subClassOf>
       <obo:IAO_0000115>Dataset containing the results of an age-at-death estimation investigation about a male specimen as performed by the Phaleron Bioarchaeological Project.
 </obo:IAO_0000115>
+      <phaleron-app:sexBasedContext>mal</phaleron-app:sexBasedContext>
         <rdfs:label xml:lang="en">Age estimation dataset about a male specimen</rdfs:label>
     </owl:Class>
     
@@ -407,6 +414,7 @@
         </rdfs:subClassOf>
       <obo:IAO_0000115>An investigation that estimates age at death of a male skeletal specimen following the routines defined by and for the Phaleron Bioarchaeological Project.
 </obo:IAO_0000115>
+      <phaleron-app:sexBasedContext>mal</phaleron-app:sexBasedContext>
         <rdfs:label xml:lang="en">Male age estimation</rdfs:label>
     </owl:Class>
     
@@ -461,6 +469,7 @@
       </rdfs:subClassOf>
       <obo:IAO_0000115>Section of a Phaleron Bioarchaeological Project age estimation dataset about a male specimen containing information acquired through methods based on observed deterioration of the pubic symphyses.
 </obo:IAO_0000115>
+      <phaleron-app:sexBasedContext>mal</phaleron-app:sexBasedContext>
         <rdfs:label xml:lang="en">Pubic age estimation dataset section about a male specimen</rdfs:label>
     </owl:Class>
     
@@ -14747,12 +14756,54 @@
     <!-- http://w3id.org/rdfbones/core#EntireBoneOrgan_fma9710 -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBoneOrgan_fma9710"/>
+
+
+
+    <!-- http://w3id.org/rdfbones/ext/phaleron-ae/AssigningTheFemaleRoleForAgeEstimation -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-ae/AssigningTheFemaleRoleForAgeEstimation">
+      <phaleron-app:sexBasedContext>fem</phaleron-app:sexBasedContext>
+  </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/phaleron-ae/AssigningTheMaleRoleForAgeEstimation -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-ae/AssigningTheMaleRoleForAgeEstimation">
+      <phaleron-app:sexBasedContext>mal</phaleron-app:sexBasedContext>
+  </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/phaleron-ae/FemaleSpecimenRole -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-ae/FemaleSpecimenRole">
+      <phaleron-app:sexBasedContext>fem</phaleron-app:sexBasedContext>
+  </owl:Class>
     
 
 
     <!-- http://w3id.org/rdfbones/ext/phaleron-ae/IndeterminateSexPubicSymphysisMorphologicalPhase -->
 
-    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-ae/IndeterminateSexPubicSymphysisMorphologicalPhase"/>
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-ae/IndeterminateSexPubicSymphysisMorphologicalPhase">
+      <phaleron-app:sexBasedContext>ind</phaleron-app:sexBasedContext>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/phaleron-ae/IndeterminateSexPubicSymphysisMorphologicalStageValueSpecification -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-ae/IndeterminateSexPubicSymphysisMorphologicalStageValueSpecification">
+      <phaleron-app:sexBasedContext>ind</phaleron-app:sexBasedContext>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/phaleron-ae/MaleSpecimenRole -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-ae/MaleSpecimenRole">
+      <phaleron-app:sexBasedContext>mal</phaleron-app:sexBasedContext>
+  </owl:Class>
     
 
 
@@ -15794,15 +15845,195 @@
 
 
 
+    <!-- http://w3id.org/rdfbones/ext/sb/Female95PercentAgeRange -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/sb/Female95PercentAgeRange">
+      <phaleron-app:sexBasedContext>fem</phaleron-app:sexBasedContext>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/sb/FemaleAgeRangeAssociation -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/sb/FemaleAgeRangeAssociation">
+      <phaleron-app:sexBasedContext>fem</phaleron-app:sexBasedContext>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/sb/FemaleAgeRangeValueSpecification -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/sb/FemaleAgeRangeValueSpecification">
+      <phaleron-app:sexBasedContext>fem</phaleron-app:sexBasedContext>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/sb/FemalePhase1AgeRangeAssociation -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/sb/FemalePhase1AgeRangeAssociation">
+      <phaleron-app:sexBasedContext>fem</phaleron-app:sexBasedContext>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/sb/FemalePhase2AgeRangeAssociation -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/sb/FemalePhase2AgeRangeAssociation">
+      <phaleron-app:sexBasedContext>fem</phaleron-app:sexBasedContext>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/sb/FemalePhase3AgeRangeAssociation -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/sb/FemalePhase3AgeRangeAssociation">
+      <phaleron-app:sexBasedContext>fem</phaleron-app:sexBasedContext>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/sb/FemalePhase4AgeRangeAssociation -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/sb/FemalePhase4AgeRangeAssociation">
+      <phaleron-app:sexBasedContext>fem</phaleron-app:sexBasedContext>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/sb/FemalePhase5AgeRangeAssociation -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/sb/FemalePhase5AgeRangeAssociation">
+      <phaleron-app:sexBasedContext>fem</phaleron-app:sexBasedContext>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/sb/FemalePhase6AgeRangeAssociation -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/sb/FemalePhase6AgeRangeAssociation">
+      <phaleron-app:sexBasedContext>fem</phaleron-app:sexBasedContext>
+    </owl:Class>
+
+
+
     <!-- http://w3id.org/rdfbones/ext/sb/FemalePubicSymphysisMorphologicalStage -->
 
-    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/sb/FemalePubicSymphysisMorphologicalStage"/>
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/sb/FemalePubicSymphysisMorphologicalStage">
+      <phaleron-app:sexBasedContext>fem</phaleron-app:sexBasedContext>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/sb/FemalePubicSymphysisMorphologicalStageAssignment -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/sb/FemalePubicSymphysisMorphologicalStageAssignment">
+      <phaleron-app:sexBasedContext>fem</phaleron-app:sexBasedContext>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/sb/FemalePubicSymphysisMorphologicalStageValueSpecification -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/sb/FemalePubicSymphysisMorphologicalStageValueSpecification">
+      <phaleron-app:sexBasedContext>fem</phaleron-app:sexBasedContext>
+    </owl:Class>
+     
+
+
+    <!-- http://w3id.org/rdfbones/ext/sb/Male95PercentAgeRange -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/sb/Male95PercentAgeRange">
+      <phaleron-app:sexBasedContext>mal</phaleron-app:sexBasedContext>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/sb/MaleAgeRangeAssociation -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/sb/MaleAgeRangeAssociation">
+      <phaleron-app:sexBasedContext>mal</phaleron-app:sexBasedContext>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/sb/MaleAgeRangeValueSpecification -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/sb/MaleAgeRangeValueSpecification">
+      <phaleron-app:sexBasedContext>mal</phaleron-app:sexBasedContext>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/sb/MalePhase1AgeRangeAssociation -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/sb/MalePhase1AgeRangeAssociation">
+      <phaleron-app:sexBasedContext>mal</phaleron-app:sexBasedContext>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/sb/MalePhase2AgeRangeAssociation -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/sb/MalePhase2AgeRangeAssociation">
+      <phaleron-app:sexBasedContext>mal</phaleron-app:sexBasedContext>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/sb/MalePhase3AgeRangeAssociation -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/sb/MalePhase3AgeRangeAssociation">
+      <phaleron-app:sexBasedContext>mal</phaleron-app:sexBasedContext>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/sb/MalePhase4AgeRangeAssociation -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/sb/MalePhase4AgeRangeAssociation">
+      <phaleron-app:sexBasedContext>mal</phaleron-app:sexBasedContext>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/sb/MalePhase5AgeRangeAssociation -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/sb/MalePhase5AgeRangeAssociation">
+      <phaleron-app:sexBasedContext>mal</phaleron-app:sexBasedContext>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/sb/MalePhase6AgeRangeAssociation -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/sb/MalePhase6AgeRangeAssociation">
+      <phaleron-app:sexBasedContext>mal</phaleron-app:sexBasedContext>
+    </owl:Class>
 
 
 
     <!-- http://w3id.org/rdfbones/ext/sb/MalePubicSymphysisMorphologicalStage -->
 
-    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/sb/MalePubicSymphysisMorphologicalStage"/>
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/sb/MalePubicSymphysisMorphologicalStage">
+      <phaleron-app:sexBasedContext>mal</phaleron-app:sexBasedContext>
+    </owl:Class>
+  
+
+
+    <!-- http://w3id.org/rdfbones/ext/sb/MalePubicSymphysisMorphologicalStageAssignment -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/sb/MalePubicSymphysisMorphologicalStageAssignment">
+      <phaleron-app:sexBasedContext>mal</phaleron-app:sexBasedContext>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/ext/sb/MalePubicSymphysisMorphologicalStageValueSpecification -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/sb/MalePubicSymphysisMorphologicalStageValueSpecification">
+      <phaleron-app:sexBasedContext>mal</phaleron-app:sexBasedContext>
+    </owl:Class>
     
 
 
