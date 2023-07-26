@@ -14821,12 +14821,28 @@
     <!-- http://w3id.org/rdfbones/ext/phaleron-ae/SucheyBrooksAgeEstimate -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-ae/SucheyBrooksAgeEstimate"/>
+
+
+
+    <!-- http://w3id.org/rdfbones/ext/phaleron-patho/LowerLimbLongBoneAROISpecification -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-patho/LowerLimbLongBoneAROISpecification" >
+      <phaleron-app:urlparam>lowerlimb</phaleron-app:urlparam>
+    </owl:Class>
     
 
 
     <!-- http://w3id.org/rdfbones/ext/phaleron-patho/PhaleronPaleopathologyDatasetSection -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-patho/PhaleronPaleopathologyDatasetSection"/>
+
+
+
+    <!-- http://w3id.org/rdfbones/ext/phaleron-patho/UpperLimbLongBoneAROISpecification -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-patho/UpperLimbLongBoneAROISpecification" >
+      <phaleron-app:urlparam>upperlimb</phaleron-app:urlparam>
+    </owl:Class>
     
 
 
