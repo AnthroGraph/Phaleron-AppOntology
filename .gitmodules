@@ -28,3 +28,15 @@
 [submodule "Phaleron-SexEstimation"]
 	path = Phaleron-SexEstimation
 	url = git@github.com:RDFBones/Phaleron-SexEstimation.git
+[submodule "Phenice-SexEstimation"]
+	path = Phenice-SexEstimation
+	url = https://github.com/RDFBones/Phenice-SexEstimation
+[submodule "Klales-SexEstimation"]
+	path = Klales-SexEstimation
+	url = https://github.com/RDFBones/Klales-SexEstimation
+[submodule "Walker-SexEstimation"]
+	path = Walker-SexEstimation
+	url = https://github.com/RDFBones/Walker-SexEstimation
+[submodule "Standards-SexEstimation"]
+	path = Standards-SexEstimation
+	url = https://github.com/RDFBones/Standards-SexEstimation
