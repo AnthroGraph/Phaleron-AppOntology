@@ -234,7 +234,7 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/> <!-- 'has specified output' -->
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/FemalePubicAgeEstimationDataset"/>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/FemaleAgeEstimationDataset"/>
             </owl:Restriction>
         </rdfs:subClassOf>
       <obo:IAO_0000115>An investigation that estimates age at death of a female skeletal specimen following the routines defined by and for the Phaleron Bioarchaeological Project.
