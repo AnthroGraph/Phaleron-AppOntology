@@ -341,7 +341,7 @@
     <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/IndeterminateSexPubicAgeEstimationDatasetSection -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/IndeterminateSexPubicAgeEstimationDatasetSection">
-      <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/phaleron-ae/AgeEstimationProcess/PubicAgeEstimationDatasetSection"/>
+      <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/phaleron-ae/PubicAgeEstimationDatasetSection"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
