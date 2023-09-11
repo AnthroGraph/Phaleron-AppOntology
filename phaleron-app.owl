@@ -303,7 +303,7 @@
     <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/IndeterminateSexAgeEstimationDataset -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/IndeterminateSexAgeEstimationDataset">
-      <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/phaleron-ae/AgeEstimationProcessphaleron-ae/AgeEstimationDataset"/>
+      <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/phaleron-ae/AgeEstimationDataset"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -322,7 +322,7 @@
     <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/IndeterminateSexAgeEstimationProcess -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/IndeterminateSexAgeEstimationProcess">
-      <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/phaleron-ae/AgeEstimationProcess/AgeEstimationProcess"/>
+      <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/phaleron-ae/AgeEstimationProcess"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/> <!-- 'has specified output' -->
@@ -396,7 +396,7 @@
     <!-- http://w3id.org/rdfbones/anthrograph/app/phaleron-app/MaleAgeEstimationDataset -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/MaleAgeEstimationDataset">
-      <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/phaleron-ae/phaleron-ae/AgeEstimationDataset"/>
+      <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/ext/phaleron-ae/AgeEstimationDataset"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
