@@ -14818,6 +14818,14 @@
     
 
 
+    <!-- http://w3id.org/rdfbones/ext/phaleron-ae/SpecimenOfIndeterminateSexRole -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-ae/SpecimenOfIndeterminateSexRole">
+      <phaleron-app:sexBasedContext>ind</phaleron-app:sexBasedContext>
+  </owl:Class>
+    
+
+
     <!-- http://w3id.org/rdfbones/ext/phaleron-ae/SucheyBrooksAgeEstimate -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/ext/phaleron-ae/SucheyBrooksAgeEstimate"/>
