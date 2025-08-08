@@ -140,7 +140,7 @@ if [ $phaleron -eq 1 ]; then
     robot annotate --input results/phaleron-app_ext.owl \
 	  --remove-annotations \
 	  --ontology-iri "http://w3id.org/rdfbones/ontology_resources/app/phaleron-app/latetst/phaleron-app_ext.owl" \
-	  --version-iri "http://w3id.org/rdfbones/ontology_resources/app/phaleron-app/v0-1/phaleron-app_ext.owl" \https://github.com/RDFBones/Standards-SexEstimation
+	  --version-iri "http://w3id.org/rdfbones/ontology_resources/app/phaleron-app/v0-1/phaleron-app_ext.owl" \
 	  --language-annotation rdfs:label "PBP App ontology extensions" en \
 	  --language-annotation dc:description "This ontology combines the Phaleron Bioarchaeological Project App Ontology and all RDFBones ontology extensions that are required for the Phaleron Bioarchaeological Project App to work." en \
 	  --language-annotation dc:title "PBP App ontology extensions" en \
