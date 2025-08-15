@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://w3id.org/rdfbones/anthrograph/app/phaleron#"
+     xml:base="http://w3id.org/rdfbones/anthrograph/app/phaleron"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:fma="http://purl.org/sig/ont/fma/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:phaleron-ae="http://w3id.org/rdfbones/ext/phaleron-ae/"
+     xmlns:phaleron-app="http://w3id.org/rdfbones/anthrograph/app/phaleron-app/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:rdfbones="http://w3id.org/rdfbones/core#"
+     xmlns:sb="http://w3id.org/rdfbones/ext/sb/"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    
+</rdf:RDF>
+
