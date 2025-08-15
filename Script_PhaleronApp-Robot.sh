@@ -146,6 +146,20 @@ if [ $phaleron -eq 1 ]; then
 	  --language-annotation dc:title "PBP App ontology extensions" en \
 	  --output results/phaleron-app_ext.owl
 
+    robot rename --input results/phaleron-app_ext.owl \
+	  --add-prefix "phaleron-si: http://w3id.org/rdfbones/ext/phaleron-si/" \
+	  --add-prefix "phaleron-patho: http://w3id.org/rdfbones/ext/phaleon-patho/" \
+	  --add-prefix "phaleron-di: http://w3id.org/rdfbones/ext/phaleron-di/" \
+	  --add-prefix "phaleron-dpatho: http://w3id.org/rdfbones/ext/phaleron-dpatho/" \
+          --add-prefix "sb: http://w3id.org/rdfbones/ext/sb/" \
+	  --add-prefix "phaleron-ae: http://w3id.org/rdfbones/ext/phaleron-ae/" \
+	  --add-prefix "phaleron-se: http://w3id.org/rdfbones/ext/phaleron-se/" \
+	  --add-prefix "phenice: http://w3id.org/rdfbones/ext/phenice/" \
+	  --add-prefix "klales: http://w3id.org/rdfbones/ext/klales/" \
+	  --add-prefix "walker: http://w3id.org/rdfbones/ext/walker/" \
+	  --add-prefix "standards-se: http://w3id.org/rdfbones/ext/standards-se/" \
+	  --output results/phaleron-app_ext.owl
+
 fi
 
 
